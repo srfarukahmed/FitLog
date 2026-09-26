@@ -55,6 +55,6 @@ FitLog is a modern and responsive workout library and fitness tracking applicati
 - Optimized layouts for navbar, hero section, workout cards, details page, and dashboard.
 
 
-Live Link: 
+Live Link: https://fit-log-faruk.vercel.app/
 
 GitHub Repository: https://github.com/srfarukahmed/FitLog
