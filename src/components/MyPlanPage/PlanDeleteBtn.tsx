@@ -26,7 +26,7 @@ const PlanDeleteBtn = ({
     } else {
       setSavedCart(remainingSavedWorkout);
     }
-    toast.info(`${workout.name} remove successfully`);
+    toast.info(`${workout.name} Removed Successfully`);
   };
   return (
     <button type="button"

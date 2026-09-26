@@ -12,12 +12,12 @@ const AddPlanBtn = ({ workout }: { workout: IWorkoutType }) => {
 
   const handleAddToPlan = () => {
     if(isAlreadyAdded) {
-      toast.warn(`${workout.name} is already added`);
+      toast.warn(`${workout.name} is Already Exists`);
       return
     };
 
     setPlanCart([...planCart, workout]);
-    toast.success(`${workout.name} Added to today's plan`);
+    toast.success(`${workout.name} Successfully Added to Today's Plan`);
   };
 
 

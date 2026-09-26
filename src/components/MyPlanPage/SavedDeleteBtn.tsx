@@ -11,7 +11,7 @@ const DeleteBtn = ({ workout }: { workout: IWorkoutType }) => {
       (workout: IWorkoutType) => workout.id !== id,
     );
     setSavedCart(remaingingWorkout);
-    toast.info(`${workout.name} remove successfully`);
+    toast.info(`${workout.name} Removed Successfully`);
   };
   return (
     <span

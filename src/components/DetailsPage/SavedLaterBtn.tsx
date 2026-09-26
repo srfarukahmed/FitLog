@@ -11,7 +11,7 @@ const AddPlanBtn = ({ workout }: { workout: IWorkoutType }) => {
 
   const handleSavedLaterBtn = () => {
     setSavedCart([...savedCart, workout]);
-    toast.info(`${workout.name} saved for later`);
+    toast.info(`${workout.name} Successfully Saved for Later`);
   };
 
   return (
