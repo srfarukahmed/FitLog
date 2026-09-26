@@ -23,7 +23,7 @@ export default function WorkOutCard({ workout }: WorkOutCardProps) {
   return (
     <Link href={`/${id}`}>
       <div className="rounded-2xl bg-dark border border-cardStrock hover:border-green/50 transition-all duration-250 ease-in-out">
-        {/* img */}
+        
         <div>
           <Image
             src={image}
@@ -33,7 +33,7 @@ export default function WorkOutCard({ workout }: WorkOutCardProps) {
             className="w-full rounded-t-2xl h-48 object-cover"
           ></Image>
         </div>
-        {/* info */}
+       
         <div className="p-6 ">
           <div className="space-y-1">
             <ul className="flex items-center gap-2 text-black font-bold text-[11px]">

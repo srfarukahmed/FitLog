@@ -51,7 +51,7 @@ const DetailsPage = async ({ params }: DetailsPageProps) => {
   return (
     <section className="mt-16 text-white mb-16">
       <div className="container mx-auto px-4 py-12 grid grid-cols-1 lg:grid-cols-2 gap-14 ">
-        {/* left image */}
+        
         <div>
           <Image
             src={image}
@@ -62,7 +62,7 @@ const DetailsPage = async ({ params }: DetailsPageProps) => {
           />
         </div>
 
-        {/* Right info */}
+        
         <div className="flex flex-col ">
           <div>
             <h1 className="font-oswald font-bold text-4xl tracking-[0.45px] text-white leading-7 uppercase mb-3">
@@ -78,7 +78,7 @@ const DetailsPage = async ({ params }: DetailsPageProps) => {
             </ul>
           </div>
 
-          {/* Table  */}
+          
           <div className="mb-8">
             <table className="w-full overflow-hidden rounded-2xl border border-[#232834] bg-[#151922]">
               <tbody>
@@ -148,7 +148,7 @@ const DetailsPage = async ({ params }: DetailsPageProps) => {
             </table>
           </div>
 
-          {/* Instruction */}
+
           <div className="mb-9">
             <h1 className="uppercase font-extrabold text-[16px] text-white mb-4">
               Instructions
@@ -163,7 +163,7 @@ const DetailsPage = async ({ params }: DetailsPageProps) => {
             </ul>
           </div>
 
-          {/* buttons */}
+
           <div className="flex items-center gap-4">
             <AddPlanBtn workout={workout} />
             <SavedLaterBtn workout={workout} />

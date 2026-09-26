@@ -55,7 +55,7 @@ const MyPlans = () => {
     <section className="mt-14">
       <div className="container mx-auto space-y-6 px-4 py-10">
 
-        {/* Heading */}
+        
         <div className="space-y-2">
           <h1 className="font-oswald text-3xl font-bold tracking-[-0.75px] text-white">
             My plan
@@ -67,7 +67,7 @@ const MyPlans = () => {
         </div>
 
 
-        {/* Metrics */}
+        
         <div className="grid grid-cols-3 rounded-2xl bg-[#13161D] px-6 py-8">
 
           <div>
@@ -111,7 +111,7 @@ const MyPlans = () => {
         </div>
 
 
-        {/* Tabs + Sort */}
+        
         <div className="flex items-center justify-between">
 
           <div className="h-12.5 rounded-xl border border-[#232732] bg-[#151921] p-1">
@@ -181,7 +181,7 @@ const MyPlans = () => {
 
 
 
-        {/* Cards */}
+       
 
         {sortedApps.length > 0 ? (
 

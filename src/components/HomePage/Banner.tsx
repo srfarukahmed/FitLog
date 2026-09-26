@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <section className="mt-24 px-4 ">
       <div className="container mx-auto bg-dark border border-cardStrock p-14 flex flex-col lg:flex-row justify-between items-center rounded-2xl ">
-        {/* left */}
+       
         <div className="space-y-5 text-center lg:text-left">
           <h3 className="text-green font-bold text-[11px] tracking-[1.1px] uppercase">
             Workout library
@@ -24,9 +24,9 @@ const Banner = () => {
             </button>
           </a>
         </div>
-        {/* middle */}
+        
         <div className="w-25 h-25 hidden lg:block"></div>
-        {/* right */}
+        
         <div className="mt-10 lg:mt-0">
           <Image
             src={BannerImage}

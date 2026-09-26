@@ -2,10 +2,10 @@ const DetailsPageSkeleton = () => {
   return (
     <section className="mb-16 mt-16 animate-pulse text-white">
       <div className="container mx-auto grid grid-cols-1 gap-14 px-4 py-12 lg:grid-cols-2">
-        {/* Image */}
+     
         <div className="h-120 w-full rounded-2xl bg-[#151922] lg:h-175" />
 
-        {/* Details */}
+      
         <div className="flex flex-col">
           <div className="mb-7">
             <div className="mb-4 h-10 w-3/4 rounded bg-[#232834]" />
@@ -19,7 +19,7 @@ const DetailsPageSkeleton = () => {
             </div>
           </div>
 
-          {/* Details table */}
+      
           <div className="mb-8 overflow-hidden rounded-2xl border border-[#232834] bg-[#151922]">
             {Array.from({ length: 7 }).map((_, index) => (
               <div
@@ -34,7 +34,7 @@ const DetailsPageSkeleton = () => {
             ))}
           </div>
 
-          {/* Instructions */}
+     
           <div className="mb-9">
             <div className="mb-5 h-5 w-32 rounded bg-[#232834]" />
 
@@ -45,7 +45,7 @@ const DetailsPageSkeleton = () => {
             </div>
           </div>
 
-          {/* Buttons */}
+        
           <div className="flex items-center gap-4">
             <div className="h-12 w-40 rounded-xl bg-[#232834]" />
             <div className="h-12 w-40 rounded-xl bg-[#232834]" />
